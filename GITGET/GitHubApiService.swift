@@ -11,6 +11,8 @@ import RxSwift
 import SwiftyJSON
 import Alamofire
 
-typealias JSONObject = [String:Any]
+
+
+
 
 

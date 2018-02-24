@@ -42,6 +42,8 @@
 		6AFA4AF51F9EDBDF00000759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA4AF41F9EDBDF00000759 /* AppDelegate.swift */; };
 		6AFA4AFC1F9EDBDF00000759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4AFB1F9EDBDF00000759 /* Assets.xcassets */; };
 		6AFA4AFF1F9EDBDF00000759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4AFD1F9EDBDF00000759 /* LaunchScreen.storyboard */; };
+		6AFC13E920412AB300737EE0 /* MyFieldViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC13E820412AB300737EE0 /* MyFieldViewController+Rx.swift */; };
+		6AFC13EB20412AC700737EE0 /* MyFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC13EA20412AC700737EE0 /* MyFieldViewModel.swift */; };
 		79790DD4087B0734F45C8F96 /* Pods_GITGET.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F4E7E489348256A25AA35D /* Pods_GITGET.framework */; };
 		826EA3CC1FDF93B20090769E /* OAuthClientDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826EA3CB1FDF93B20090769E /* OAuthClientDatas.plist */; };
 		826EA3D01FDF94690090769E /* OAuthClientDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826EA3CE1FDF94690090769E /* OAuthClientDatas.plist */; };
@@ -123,6 +125,8 @@
 		6AFA4AF41F9EDBDF00000759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AFA4AFB1F9EDBDF00000759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AFA4AFE1F9EDBDF00000759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AFC13E820412AB300737EE0 /* MyFieldViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyFieldViewController+Rx.swift"; sourceTree = "<group>"; };
+		6AFC13EA20412AC700737EE0 /* MyFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFieldViewModel.swift; sourceTree = "<group>"; };
 		7659BF0A3ED16F54209FB052 /* Pods-GitGetTodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitGetTodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitGetTodayExtension/Pods-GitGetTodayExtension.release.xcconfig"; sourceTree = "<group>"; };
 		7E204C0A6F430994B18CF5C6 /* Pods_GitGetTodayExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitGetTodayExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826EA3CB1FDF93B20090769E /* OAuthClientDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OAuthClientDatas.plist; sourceTree = "<group>"; };
@@ -276,6 +280,7 @@
 				6AFA4AF41F9EDBDF00000759 /* AppDelegate.swift */,
 				6A3FA4991FDE1807008F205C /* Model */,
 				6A8E407C1FD0055D008F2DD7 /* SignIn */,
+				6AFC13E720412A9300737EE0 /* New Group */,
 				6A8E407E1FD00589008F2DD7 /* TabBar */,
 				6A8E40791FCFE1D3008F2DD7 /* TutorialPageViews */,
 				6A8E40971FD1820F008F2DD7 /* Main.storyboard */,
@@ -284,6 +289,15 @@
 				6A0F5C631FCEF6B30081834E /* Supporting Files */,
 			);
 			path = GITGET;
+			sourceTree = "<group>";
+		};
+		6AFC13E720412A9300737EE0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6AFC13E820412AB300737EE0 /* MyFieldViewController+Rx.swift */,
+				6AFC13EA20412AC700737EE0 /* MyFieldViewModel.swift */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		75834077143F1622C7606A5A /* Frameworks */ = {
@@ -473,6 +487,7 @@
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftReorder/SwiftReorder.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -491,6 +506,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftReorder.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -564,6 +580,7 @@
 				6AFA4AF51F9EDBDF00000759 /* AppDelegate.swift in Sources */,
 				6A5E67C31FE6867B00A9F865 /* RealmModel.swift in Sources */,
 				6A7F80F51FC7E98100052CF3 /* MyFieldViewController.swift in Sources */,
+				6AFC13E920412AB300737EE0 /* MyFieldViewController+Rx.swift in Sources */,
 				6A65FE971FF506A0008726CB /* IAPHandler.swift in Sources */,
 				6A8E40761FCFE183008F2DD7 /* SingleTapViewController.swift in Sources */,
 				6A8E40801FD005B1008F2DD7 /* SettingTableViewController.swift in Sources */,
@@ -573,6 +590,7 @@
 				6A464E961FD5AA8E007C177A /* CustomTableViewCell.swift in Sources */,
 				6A8E40781FCFE191008F2DD7 /* DoubleTapViewController.swift in Sources */,
 				6A8E40721FCFE169008F2DD7 /* AddWidgetViewController.swift in Sources */,
+				6AFC13EB20412AC700737EE0 /* MyFieldViewModel.swift in Sources */,
 				6AD30F631FB3723D00D9C251 /* OAuthWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
