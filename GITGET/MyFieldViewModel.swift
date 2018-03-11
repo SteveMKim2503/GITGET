@@ -14,6 +14,7 @@ protocol MyFieldViewModel: MyFieldViewControllerBindable {
     
 }
 
-class MyFieldViewModelImpl: MyFieldViewModel {
-    
-}
+//class MyFieldViewModelImpl: MyFieldViewModel {
+//    
+//}
+

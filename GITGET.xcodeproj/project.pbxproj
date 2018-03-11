@@ -37,8 +37,21 @@
 		6A8E40881FD04159008F2DD7 /* GitHubAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8E40871FD04159008F2DD7 /* GitHubAPIManager.swift */; };
 		6A8E408C1FD0D991008F2DD7 /* GitHubAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8E408B1FD0D991008F2DD7 /* GitHubAPIManager.swift */; };
 		6A8E40951FD1820F008F2DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8E40971FD1820F008F2DD7 /* Main.storyboard */; };
+		6ABCAB762054136F00F5DE2C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB752054136F00F5DE2C /* MainViewController.swift */; };
+		6ABCAB78205413EB00F5DE2C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB77205413EB00F5DE2C /* MainViewModel.swift */; };
+		6ABCAB7C2054EF3500F5DE2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB7B2054EF3500F5DE2C /* Constants.swift */; };
+		6ABCAB7E2054EF4100F5DE2C /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB7D2054EF4100F5DE2C /* Headers.swift */; };
+		6ABCAB802054F07F00F5DE2C /* Containers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB7F2054F07F00F5DE2C /* Containers.swift */; };
+		6ABCAB822054F0D000F5DE2C /* RepositoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB812054F0D000F5DE2C /* RepositoryContainer.swift */; };
+		6ABCAB842054F0E700F5DE2C /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB832054F0E700F5DE2C /* ServiceContainer.swift */; };
+		6ABCAB862054F0FC00F5DE2C /* UseCaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB852054F0FC00F5DE2C /* UseCaseContainer.swift */; };
+		6ABCAB882054F10400F5DE2C /* ViewModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB872054F10400F5DE2C /* ViewModelContainer.swift */; };
+		6ABCAB8A2054F10B00F5DE2C /* ViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB892054F10B00F5DE2C /* ViewContainer.swift */; };
+		6ABCAB8C2054F11500F5DE2C /* EtcContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB8B2054F11500F5DE2C /* EtcContainer.swift */; };
+		6ABCAB922054F1AE00F5DE2C /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB912054F1AE00F5DE2C /* UserApi.swift */; };
+		6ABCAB942054F1C800F5DE2C /* ContributionsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB932054F1C800F5DE2C /* ContributionsApi.swift */; };
+		6ABCAB962054F1D200F5DE2C /* RepositoryApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCAB952054F1D200F5DE2C /* RepositoryApi.swift */; };
 		6AD30F631FB3723D00D9C251 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD30F621FB3723D00D9C251 /* OAuthWebViewController.swift */; };
-		6AFA40232021FBA100DDAC15 /* GitHubApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA40222021FBA100DDAC15 /* GitHubApiService.swift */; };
 		6AFA4AF51F9EDBDF00000759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA4AF41F9EDBDF00000759 /* AppDelegate.swift */; };
 		6AFA4AFC1F9EDBDF00000759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4AFB1F9EDBDF00000759 /* Assets.xcassets */; };
 		6AFA4AFF1F9EDBDF00000759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA4AFD1F9EDBDF00000759 /* LaunchScreen.storyboard */; };
@@ -119,8 +132,21 @@
 		6A8E408B1FD0D991008F2DD7 /* GitHubAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIManager.swift; sourceTree = "<group>"; };
 		6A8E40981FD18212008F2DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A8E409A1FD1822A008F2DD7 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		6ABCAB752054136F00F5DE2C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6ABCAB77205413EB00F5DE2C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6ABCAB7B2054EF3500F5DE2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6ABCAB7D2054EF4100F5DE2C /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		6ABCAB7F2054F07F00F5DE2C /* Containers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Containers.swift; sourceTree = "<group>"; };
+		6ABCAB812054F0D000F5DE2C /* RepositoryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryContainer.swift; sourceTree = "<group>"; };
+		6ABCAB832054F0E700F5DE2C /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		6ABCAB852054F0FC00F5DE2C /* UseCaseContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseContainer.swift; sourceTree = "<group>"; };
+		6ABCAB872054F10400F5DE2C /* ViewModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelContainer.swift; sourceTree = "<group>"; };
+		6ABCAB892054F10B00F5DE2C /* ViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainer.swift; sourceTree = "<group>"; };
+		6ABCAB8B2054F11500F5DE2C /* EtcContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcContainer.swift; sourceTree = "<group>"; };
+		6ABCAB912054F1AE00F5DE2C /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		6ABCAB932054F1C800F5DE2C /* ContributionsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsApi.swift; sourceTree = "<group>"; };
+		6ABCAB952054F1D200F5DE2C /* RepositoryApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryApi.swift; sourceTree = "<group>"; };
 		6AD30F621FB3723D00D9C251 /* OAuthWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthWebViewController.swift; sourceTree = "<group>"; };
-		6AFA40222021FBA100DDAC15 /* GitHubApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubApiService.swift; sourceTree = "<group>"; };
 		6AFA4AF11F9EDBDF00000759 /* GITGET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITGET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFA4AF41F9EDBDF00000759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AFA4AFB1F9EDBDF00000759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,9 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				6A8E40871FD04159008F2DD7 /* GitHubAPIManager.swift */,
-				6AFA40222021FBA100DDAC15 /* GitHubApiService.swift */,
 				82BEE5E41FE1F44500467B5C /* GitgetVersion.swift */,
-				6A5E67C21FE6867B00A9F865 /* RealmModel.swift */,
 				6A65FE961FF506A0008726CB /* IAPHandler.swift */,
 			);
 			name = Model;
@@ -252,6 +276,63 @@
 			name = TabBar;
 			sourceTree = "<group>";
 		};
+		6ABCAB792054EECC00F5DE2C /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCAB7F2054F07F00F5DE2C /* Containers.swift */,
+				6ABCAB812054F0D000F5DE2C /* RepositoryContainer.swift */,
+				6ABCAB832054F0E700F5DE2C /* ServiceContainer.swift */,
+				6ABCAB852054F0FC00F5DE2C /* UseCaseContainer.swift */,
+				6ABCAB872054F10400F5DE2C /* ViewModelContainer.swift */,
+				6ABCAB892054F10B00F5DE2C /* ViewContainer.swift */,
+				6ABCAB8B2054F11500F5DE2C /* EtcContainer.swift */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		6ABCAB7A2054EF1C00F5DE2C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCAB7B2054EF3500F5DE2C /* Constants.swift */,
+				6ABCAB7D2054EF4100F5DE2C /* Headers.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		6ABCAB8D2054F13300F5DE2C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		6ABCAB8E2054F14400F5DE2C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCAB8F2054F16900F5DE2C /* Database */,
+				6ABCAB902054F19100F5DE2C /* Network */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		6ABCAB8F2054F16900F5DE2C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E67C21FE6867B00A9F865 /* RealmModel.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		6ABCAB902054F19100F5DE2C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCAB912054F1AE00F5DE2C /* UserApi.swift */,
+				6ABCAB932054F1C800F5DE2C /* ContributionsApi.swift */,
+				6ABCAB952054F1D200F5DE2C /* RepositoryApi.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		6AFA4AE81F9EDBDF00000759 = {
 			isa = PBXGroup;
 			children = (
@@ -278,9 +359,13 @@
 			children = (
 				6A4A3ABC1FBC21E000B1B666 /* GITGET.entitlements */,
 				6AFA4AF41F9EDBDF00000759 /* AppDelegate.swift */,
+				6ABCAB7A2054EF1C00F5DE2C /* Constants */,
+				6ABCAB8E2054F14400F5DE2C /* Data */,
+				6ABCAB8D2054F13300F5DE2C /* Entities */,
+				6ABCAB792054EECC00F5DE2C /* Container */,
 				6A3FA4991FDE1807008F205C /* Model */,
 				6A8E407C1FD0055D008F2DD7 /* SignIn */,
-				6AFC13E720412A9300737EE0 /* New Group */,
+				6AFC13E720412A9300737EE0 /* TabBar + Rx */,
 				6A8E407E1FD00589008F2DD7 /* TabBar */,
 				6A8E40791FCFE1D3008F2DD7 /* TutorialPageViews */,
 				6A8E40971FD1820F008F2DD7 /* Main.storyboard */,
@@ -291,13 +376,15 @@
 			path = GITGET;
 			sourceTree = "<group>";
 		};
-		6AFC13E720412A9300737EE0 /* New Group */ = {
+		6AFC13E720412A9300737EE0 /* TabBar + Rx */ = {
 			isa = PBXGroup;
 			children = (
 				6AFC13E820412AB300737EE0 /* MyFieldViewController+Rx.swift */,
 				6AFC13EA20412AC700737EE0 /* MyFieldViewModel.swift */,
+				6ABCAB752054136F00F5DE2C /* MainViewController.swift */,
+				6ABCAB77205413EB00F5DE2C /* MainViewModel.swift */,
 			);
-			name = "New Group";
+			name = "TabBar + Rx";
 			sourceTree = "<group>";
 		};
 		75834077143F1622C7606A5A /* Frameworks */ = {
@@ -483,8 +570,10 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -502,8 +591,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -571,22 +662,35 @@
 			files = (
 				82BEE5E51FE1F44500467B5C /* GitgetVersion.swift in Sources */,
 				6A8E40741FCFE173008F2DD7 /* WidgetViewController.swift in Sources */,
+				6ABCAB882054F10400F5DE2C /* ViewModelContainer.swift in Sources */,
 				6A2FC4B31FA0B81D00C33ACB /* LogInViewController.swift in Sources */,
+				6ABCAB962054F1D200F5DE2C /* RepositoryApi.swift in Sources */,
 				6A8E406E1FCFCA02008F2DD7 /* TutorialPageViewController.swift in Sources */,
+				6ABCAB842054F0E700F5DE2C /* ServiceContainer.swift in Sources */,
 				6A32EA871FDA4068003938E5 /* ThemeTableViewController.swift in Sources */,
+				6ABCAB922054F1AE00F5DE2C /* UserApi.swift in Sources */,
+				6ABCAB822054F0D000F5DE2C /* RepositoryContainer.swift in Sources */,
+				6ABCAB942054F1C800F5DE2C /* ContributionsApi.swift in Sources */,
+				6ABCAB802054F07F00F5DE2C /* Containers.swift in Sources */,
+				6ABCAB78205413EB00F5DE2C /* MainViewModel.swift in Sources */,
 				6A8E40881FD04159008F2DD7 /* GitHubAPIManager.swift in Sources */,
+				6ABCAB7C2054EF3500F5DE2C /* Constants.swift in Sources */,
 				6A8E40701FCFE156008F2DD7 /* OpenTodayViewController.swift in Sources */,
 				6A3FA49B1FE0D205008F205C /* TeamTableViewController.swift in Sources */,
 				6AFA4AF51F9EDBDF00000759 /* AppDelegate.swift in Sources */,
+				6ABCAB7E2054EF4100F5DE2C /* Headers.swift in Sources */,
 				6A5E67C31FE6867B00A9F865 /* RealmModel.swift in Sources */,
 				6A7F80F51FC7E98100052CF3 /* MyFieldViewController.swift in Sources */,
 				6AFC13E920412AB300737EE0 /* MyFieldViewController+Rx.swift in Sources */,
+				6ABCAB862054F0FC00F5DE2C /* UseCaseContainer.swift in Sources */,
 				6A65FE971FF506A0008726CB /* IAPHandler.swift in Sources */,
 				6A8E40761FCFE183008F2DD7 /* SingleTapViewController.swift in Sources */,
+				6ABCAB8A2054F10B00F5DE2C /* ViewContainer.swift in Sources */,
 				6A8E40801FD005B1008F2DD7 /* SettingTableViewController.swift in Sources */,
+				6ABCAB8C2054F11500F5DE2C /* EtcContainer.swift in Sources */,
+				6ABCAB762054136F00F5DE2C /* MainViewController.swift in Sources */,
 				6A65FE931FF3CD4C008726CB /* TipJarViewController.swift in Sources */,
 				6A464E941FD58C56007C177A /* GitHubAccountSettingTableViewController.swift in Sources */,
-				6AFA40232021FBA100DDAC15 /* GitHubApiService.swift in Sources */,
 				6A464E961FD5AA8E007C177A /* CustomTableViewCell.swift in Sources */,
 				6A8E40781FCFE191008F2DD7 /* DoubleTapViewController.swift in Sources */,
 				6A8E40721FCFE169008F2DD7 /* AddWidgetViewController.swift in Sources */,

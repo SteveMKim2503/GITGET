@@ -10,11 +10,13 @@ import UIKit
 import RxSwift
 import RxCocoa
 import Then
-import SnapKit
+//import SnapKit
 
 protocol MyFieldViewControllerBindable {
     
 }
 
 class MyFieldViewController: UIViewController {
+    
 }
+
